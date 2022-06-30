@@ -1,5 +1,5 @@
 .imgTshirt {
-    position: relative;
+   position: relative; 
 }
 
 .memeText {
@@ -10,7 +10,7 @@
 
 .memeText img {
     max-width: 300px;
-    border: #fff solid 6px;
+    border: #fff solid 0px;
 }
 
 .memeText p {
@@ -34,3 +34,10 @@
     width: 15%;
     height: 15%;    
 }
+/*
+@media screen {
+  .btn-project {
+    font-size: 1.5vw;
+    width: 15vw;
+  }
+} */      

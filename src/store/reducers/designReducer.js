@@ -11,10 +11,9 @@ const initialState = {
 const designReducer = (state = initialState, action) => {
     switch (action.type) {
         case 'SAVE_DESIGN':
-        console.log('Your design has been saved.', action.design) 
+        console.log('Your design has been saved.', action.designs) 
         break; 
         default:
-
     }
     return state
 }

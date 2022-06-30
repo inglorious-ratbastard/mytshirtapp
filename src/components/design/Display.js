@@ -11,7 +11,7 @@ const Display = ({ display, textFormat }) => {
               <div className="upperText">
               <p style={{fontSize: textFormat, color: display.textColor}}>{`${display.upperText}` || 'Customize Your Text'}</p> 
               </div>
-              <img src={`${display.url}` || "http://via.placeholder.com/400x300" } 
+              <img src={`${display.url}` || "https://via.placeholder.com/400x300" } 
               alt="meme-text" />
               <div className="lowerText">
               <p style={{fontSize: textFormat, color: display.textColor}}>{`${display.lowerText}` || 'Create Your Design'}</p> 

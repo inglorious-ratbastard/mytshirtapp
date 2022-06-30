@@ -12,10 +12,10 @@ class Dashboard extends Component {
         upperText: 'Create your own', 
         lowerText: 'personalized t-shirt',
         memeImg: '',
-        url: '',
         textSize: 30, 
-        textColor: 'white'
-    }
+        textColor: 'white',
+        url: ''
+    } 
     
     handleTshirtColor = (e) => {
         this.setState({tshirtColor: e.target.id});
@@ -97,8 +97,8 @@ class Dashboard extends Component {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        saveDesign: (design) => dispatch(saveDesign(design)) 
-    }
+        saveDesign: (design) => dispatch(saveDesign(design))
+    } 
 }
 
 export default connect(null, mapDispatchToProps)(Dashboard) 

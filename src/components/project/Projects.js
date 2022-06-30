@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 
 class Project extends Component {
     render() {
+        console.log(this.props)
         const { designs } = this.props
         return (
             <div className="container mb-5">
