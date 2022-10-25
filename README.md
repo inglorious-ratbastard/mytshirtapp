@@ -2,6 +2,10 @@
 ##### Interactive Custom T-Shirt Design Builder
 #####  React-Redux Progressive Web App
 ##### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
 ____
 #### <h6 align="center">[Live Version](https://mytshirtapp.ingloriousrat.repl.co/)</h6>
 ![T-shirt Customization](public/Images/shirt-design.png)
