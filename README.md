@@ -7,7 +7,7 @@
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
 ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
 ____
-#### <h6 align="center">[Live Version](https://mytshirtapp.ingloriousrat.repl.co/)</h6>
+#### <h6 align="center">[Live Version](https://mytshirtapp.vercel.app/)</h6>
 ![T-shirt Customization](public/Images/shirt-design.png)
 ![Saved Project Management](public/Images/shirt-project.png)
 ---- 
