@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "browserlist": "^1.0.1",
-    "firebase": "^9.15.0",
+    "firebase": "^10.12.2",
     "nth-check": ">=2.0.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
