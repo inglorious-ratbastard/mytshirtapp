@@ -19,3 +19,47 @@ html, body {
     max-width: 20%;
     height: 15%;
 } 
+
+.container {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.memeText {
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.upperText, .lowerText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.upperText p, .lowerText p {
+  font-size: 3vw;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .upperText p, .lowerText p {
+    font-size: 6vw !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  } 
+  .memeText img {
+    max-height: 30vw; /* 100px; */
+  }
+}

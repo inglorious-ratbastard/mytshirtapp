@@ -71,7 +71,7 @@ class Dashboard extends Component {
     render() {
         return(
          <div className="container py-5">
-            <div className="row">
+            <div className="row align-items-center justify-content-center">
                <div className="col-lg-8">
                    <Display 
                     display={this.state}
