@@ -60,6 +60,6 @@ img {
     padding-bottom: 10px;
   } 
   .memeText img {
-    max-height: 30vw; /* 100px; */
+    max-height: 30vw; 
   }
 }
