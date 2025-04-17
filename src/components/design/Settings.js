@@ -18,8 +18,8 @@ const Settings = ({ color, upperText, lowerText, uploadImage, textSize, textColo
           </div> 
           <hr />
           <h6>Change Text</h6>
-          <input onChange={upperText} type="text" className="form-control form-control-sm mb-2"  maxLength="23" placeholder="Upper Text" />
-          <input onChange={lowerText} type="text" className="form-control form-control-sm"  maxLength="23" placeholder="Lower Text" />
+          <input onChange={upperText} type="text" name="text" className="form-control form-control-sm mb-2"  maxLength="23" placeholder="Upper Text" />
+          <input onChange={lowerText} type="text" name="text" className="form-control form-control-sm"  maxLength="23" placeholder="Lower Text" />
           <hr />
           <h6>Upload Image</h6>
           <div className="form-group">
@@ -30,7 +30,7 @@ const Settings = ({ color, upperText, lowerText, uploadImage, textSize, textColo
          <input onChange={textSize} type="range" className="form-control mb-2" min="24" max="40" />     
           <hr />
           <h6>Text Color</h6>
-          <select onChange={textColor} className="form-control form-control-sm mb-2">
+          <select onChange={textColor} name="color" className="form-control form-control-sm mb-2">
               <option>White</option>
               <option>Black</option>
               <option>Red</option>

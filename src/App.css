@@ -54,8 +54,7 @@ img {
 }
 
 @media (max-width: 768px) {
-  .upperText p, .lowerText p {
-    font-size: 6vw !important;
+  .upperText p, .lowerText p { 
     padding-top: 10px;
     padding-bottom: 10px;
   } 
