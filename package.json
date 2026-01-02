@@ -35,5 +35,14 @@
       "not dead",
       "not op_mini all"
     ]
+  },
+  "overrides": {
+    "nth-check": "^2.0.1",
+    "postcss": "^8.4.31",
+    "webpack-dev-server": {
+      "schema-utils": "^4.2.0",
+      "ansi-html-community": "^0.0.8",
+      "ws": "^8.18.0"
+    } 
   }
 }
