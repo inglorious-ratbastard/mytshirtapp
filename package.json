@@ -44,5 +44,11 @@
       "ansi-html-community": "^0.0.8",
       "ws": "^8.18.0"
     }
+  },
+  "devDependencies": {
+    "minimatch": "^10.2.1",
+    "webpack": "^5.105.2",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.3"
   }
 }
