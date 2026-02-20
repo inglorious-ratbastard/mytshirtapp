@@ -39,7 +39,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.24",
     "jsonpath": "^1.1.2",
-    "minimatch": "^5.1.2",
+    "minimatch": "^10.2.1",
     "nth-check": "^2.1.1",
     "postcss": "^8.4.31",
     "postcss-flexbugs-fixes": "^5.0.2",
