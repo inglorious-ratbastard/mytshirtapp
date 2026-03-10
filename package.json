@@ -14,11 +14,12 @@
   },
   "overrides": {
     "underscore": "1.13.8",
-    "postcss": "8.4.31",
+    "postcss": "^8.4.31",
+    "@tootallnate/once": "^3.0.1",
+    "serialize-javascript": "^7.0.3",
     "resolve-url-loader": {
-      "postcss": "^8.4.31",
-    "@tootallnate/once": "^3.0.1"
-  }
+      "postcss": "^8.4.31"
+    }
   },
   "scripts": {
     "start": "react-scripts start",
