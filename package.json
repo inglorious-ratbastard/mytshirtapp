@@ -19,7 +19,8 @@
     "serialize-javascript": "^7.0.3",
     "resolve-url-loader": {
       "postcss": "^8.4.31"
-    }
+    },
+    "webpack-dev-server": "^5.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
