@@ -14,9 +14,10 @@
   },
   "overrides": {
     "underscore": "1.13.8",
-     "postcss": "8.4.31",
+    "postcss": "8.4.31",
     "resolve-url-loader": {
-      "postcss": "^8.4.31"
+      "postcss": "^8.4.31",
+    "@tootallnate/once": "^3.0.1"
   }
   },
   "scripts": {
