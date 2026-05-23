@@ -21,7 +21,8 @@
     "resolve-url-loader": {
       "postcss": "^8.4.31"
     },
-    "webpack-dev-server": "^5.2.1"
+    "webpack-dev-server": "^5.2.1",
+    "ws": "8.20.1"
   },
   "scripts": {
     "start": "react-scripts start",
