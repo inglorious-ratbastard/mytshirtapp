@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "firebase": "^12.7.0",
-    "protobufjs": "^8.2.0",
+    "protobufjs": "^8.6.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-redux": "^9.2.0",
